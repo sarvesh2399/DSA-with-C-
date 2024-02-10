@@ -15,7 +15,7 @@ int factorial(int n)  // Normal Function
 int main()
 {
     int n;
-    cout << "Enter any Number: ";
+    cout << "Enter Any Number: ";
     cin >> n;
 
     int answer = factorial(n);  // Function call
