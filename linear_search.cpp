@@ -24,7 +24,7 @@
 //     {
 //         if (key == array[i])
 //         {
-//             cout << "The " << key << " found at index " << i << endl;
+//             cout << "The " << key << " present at index " << i << endl;
 //             break;
 //         }
 
@@ -53,13 +53,13 @@ int main()
     {
         if (array[i] == key)
         {
-            cout << "The " << key << " is at index " << i << endl;
+            cout << "The " << key << " is present at index " << i << endl;
             break;
         }
     }
     if (key != size)
     {
-        cout << "The key element is not found in an array" << endl;
+        cout << "The key element is not present in an array" << endl;
     }
 
     return 0;
